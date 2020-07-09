@@ -5,7 +5,7 @@ resources:
       path: shiptest-bt/pipelines_run_1
       branches:
         include: ^tests-failing$
-      gitProvider: nawaz_gh
+      gitProvider: gitResource
 
   - name: matrix_property_bag_in
     type: PropertyBag
